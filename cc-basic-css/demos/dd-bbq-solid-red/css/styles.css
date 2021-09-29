@@ -1,3 +1,4 @@
+/*multiple element selector*/
 body,
 h1,
 h2,
@@ -8,6 +9,7 @@ p {
     padding: 0;
 }
 
+/*element selector*/
 body {
     font-family: verdana, sans-serif;
     color: #111111;
@@ -30,8 +32,10 @@ footer {
     background-color: #dedede;
 }
 
+/*class selector*/
 .menu-items {
     font-family: courier;
+    /* this gets rid of the ul bullets */
     list-style-type: none;
     width: 600px;
     padding: 24px;
